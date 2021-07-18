@@ -31,6 +31,7 @@ class App extends Component {
       monster.name.toLowerCase().includes(searchField.toLocaleLowerCase()))
     return (
       <div className="App">
+        <h1>Monsters Rolodex</h1>
        
         <SearchBox        
         placeholder='search monsters'
